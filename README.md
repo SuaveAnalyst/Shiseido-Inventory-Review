@@ -8,16 +8,16 @@ Date: April 3, 2025
 
 As part of Shiseido’s continued commitment to operational excellence and responsive supply chain management, we are requesting an analytical deep dive into five critical areas of our demand planning process. The goal is to identify risks, improve forecast accuracy, reduce inefficiencies, and ultimately support better inventory and procurement decisions across our revive store locations.
 
-Insights and recommendations are provided on the following key areas:
+###Insights and recommendations are provided on the following key areas:###
 
-- **Category 1: Inventory Optimization 
-- **Category 2: Forecast Accuracy & Bias 
-- **Category 3: Supply Chain Cost Efficiency 
-- **Category 4: Cost to Serve / Holding Cost Analytics
-- **Category 5: Revenue Optimization
+- **Category 1:** Inventory Optimization 
+- **Category 2:** Forecast Accuracy & Bias 
+- **Category 3:** Supply Chain Cost Efficiency 
+- **Category 4:** Cost to Serve / Holding Cost Analytics
+- **Category 5:** Revenue Optimization
  
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [link].
+The SQL queries used to inspect and clean the data for this analysis can be found here [https://github.com/SuaveAnalyst/Shiseido-Inventory-Review/blob/f8e16968f2f74cef964b08e383ac9ffa3b860dd1/01_SQL_Scripts/Shiseido%20Script.sql].
 
 Targed SQL queries regarding various business questions can be found here [link].
 
