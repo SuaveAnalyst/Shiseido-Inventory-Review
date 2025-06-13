@@ -21,7 +21,7 @@ The SQL queries used to inspect and clean the data for this analysis can be foun
 
 Targeted SQL queries regarding various business questions can be found here:
 
-- **[Which SKUs are most at risk of stockouts by month?](link1)**
+- **[Which SKUs are most at risk of stockouts by month?](https://github.com/SuaveAnalyst/Shiseido-Inventory-Review/blob/23f53acd2a940d77cf00f62f6d2dfeac651ba604/01_SQL_Scripts/Shiseido%20Script.sql#L16-L58)**
 - **[How accurate were our forecasts vs. actual sales by product type and region?](link2)**
 - **[What is the EOQ (Economic Order Quantity) for each supplier’s SKUs?](link3)**
 - **[How does holding cost vary by product type?](link4)**
