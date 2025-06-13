@@ -19,7 +19,14 @@ As part of Shiseido’s continued commitment to operational excellence and respo
 
 The SQL queries used to inspect and clean the data for this analysis can be found in [SQL Scripts Folder](https://github.com/SuaveAnalyst/Shiseido-Inventory-Review/tree/main/01_SQL_Scripts).
 
-Targed SQL queries regarding various business questions can be found here [link].
+Targeted SQL queries regarding various business questions can be found here:
+
+- **[Inventory Optimization](link1)**
+- **[Forecast Accuracy & Bias](link2)**
+- **[Supply Chain Cost Efficiency](link3)**
+- **[Cost to Serve / Holding Cost Analytics](link4)**
+- **[Revenue Optimization](link5)**
+
 
 An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
 
