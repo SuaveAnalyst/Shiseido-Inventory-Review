@@ -87,7 +87,7 @@ This inventory performance review for Shiseido identifies critical inefficiencie
   
 * **Main insight 3.** Chennai has moderate errors across all product types, suggesting possible regional forecast noise.
 
-[![Average Forecast Error Rate by Product Type and Region](https://github.com/user-attachments/assets/a360d509-832e-45d1-a7df-0317009099ca)]
+![Average Forecast Error Rate by Product Type and Region](https://github.com/user-attachments/assets/a360d509-832e-45d1-a7df-0317009099ca)
 
 
 ### Category 3:
