@@ -62,9 +62,10 @@ The company’s main database is structured around eight relational tables, each
 
 ### Overview of Findings
 
-Explain the overarching findings, trends, and themes in 2-3 sentences here. This section should address the question: "If a stakeholder were to take away 3 main insights from your project, what are the most important things they should know?" You can put yourself in the shoes of a specific stakeholder - for example, a marketing manager or finance director - to think creatively about this section.
+This inventory performance review for Shiseido identifies critical inefficiencies spanning SKU management, forecasting precision, and cost containment. The analysis revealed five core patterns impacting operational performance: excess stock accumulation in underperforming SKUs driven by misaligned reorder logic, forecasting bias concentrated in specific product-region combinations, and disproportionate EOQs that hinder supplier efficiency. Additionally, a significant share of holding costs is tied to a small subset of SKUs, while several products remain in stock long after their reorder thresholds have passed. These findings inform actionable recommendations to right-size inventory, enhance forecast accuracy, and improve overall cost-to-serve across Shiseido’s supply chain.
 
-[Visualization, including a graph of overall trends or snapshot of a dashboard]
+[![Shiseido](https://github.com/user-attachments/assets/9d7c8fd6-c253-439d-a255-fce60eb02d61)
+]
 
 
 
