@@ -53,7 +53,8 @@ The company’s main database is structured around eight relational tables, each
 
 - **dim_inspection:** Contains quality assurance data, specifically inspection results tied to products and suppliers, enabling analysis of defect trends, compliance rates, and supplier reliability.
 
-[Entity Relationship Diagram here]
+[![image](https://github.com/user-attachments/assets/59ee072a-03be-4241-8b46-03200631702e)
+]
 
 
 
