@@ -28,7 +28,9 @@ Targeted SQL queries regarding various business questions can be found here:
 - **[Which SKUs show the greatest risk of capital being tied up?](https://github.com/SuaveAnalyst/Shiseido-Inventory-Review/blob/dd24adb2943fb3349e3a8eecffee7d5084670060/01_SQL_Scripts/Shiseido%20Script.sql#L183-L231)**
 
 
-An interactive Tableau dashboard used to report and explore sales trends can be found here [<iframe title="Shiseido Overview" width="600" height="373.5" src="https://app.powerbi.com/view?r=eyJrIjoiYjVhYWQzMzQtZGVkMy00MDM0LWI5YmMtMDg5MDJjNGQxY2U3IiwidCI6ImMyMDdhMmFjLWZiYjMtNDdkZC04OTU1LWQyODRjMDJkYWQ1OSJ9" frameborder="0" allowFullScreen="true"></iframe>].
+An interactive Tableau dashboard used to report and explore sales trends can be found here:
+### 📊 Shiseido Inventory Dashboard  
+[🔎 **View Interactive Power BI Dashboard**](https://app.powerbi.com/view?r=eyJrIjoiYjVhYWQzMzQtZGVkMy00MDM0LWI5YmMtMDg5MDJjNGQxY2U3IiwidCI6ImMyMDdhMmFjLWZiYjMtNDdkZC04OTU1LWQyODRjMDJkYWQ1OSJ9)
 
 
 
