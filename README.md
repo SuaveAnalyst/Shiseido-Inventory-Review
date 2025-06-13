@@ -17,7 +17,7 @@ As part of Shiseido’s continued commitment to operational excellence and respo
 - **Category 5:** Revenue Optimization
  
 
-The SQL queries used to inspect and clean the data for this analysis can be found here [https://github.com/SuaveAnalyst/Shiseido-Inventory-Review/blob/f8e16968f2f74cef964b08e383ac9ffa3b860dd1/01_SQL_Scripts/Shiseido%20Script.sql].
+The SQL queries used to inspect and clean the data for this analysis can be found in [SQL Scripts Folder](https://github.com/SuaveAnalyst/Shiseido-Inventory-Review/tree/main/01_SQL_Scripts).
 
 Targed SQL queries regarding various business questions can be found here [link].
 
