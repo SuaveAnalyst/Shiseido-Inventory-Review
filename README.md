@@ -25,7 +25,7 @@ Targeted SQL queries regarding various business questions can be found here:
 - **[How accurate were our forecasts vs. actual sales by product type and region?](https://github.com/SuaveAnalyst/Shiseido-Inventory-Review/blob/23f53acd2a940d77cf00f62f6d2dfeac651ba604/01_SQL_Scripts/Shiseido%20Script.sql#L60-L114)**
 - **[What is the EOQ (Economic Order Quantity) for each supplier’s SKUs?](https://github.com/SuaveAnalyst/Shiseido-Inventory-Review/blob/ae00c968ddab3186ad1387c7fc9fefca693ec9fc/01_SQL_Scripts/Shiseido%20Script.sql#L115-L150)**
 - **[How does holding cost vary by product type?](https://github.com/SuaveAnalyst/Shiseido-Inventory-Review/blob/2e671e48b30339f9f722093dbd50d3dddefb339a/01_SQL_Scripts/Shiseido%20Script.sql#L152-L181)**
-- **[Which SKUs show the greatest risk of capital being tied up?](link5)**
+- **[Which SKUs show the greatest risk of capital being tied up?](https://github.com/SuaveAnalyst/Shiseido-Inventory-Review/blob/dd24adb2943fb3349e3a8eecffee7d5084670060/01_SQL_Scripts/Shiseido%20Script.sql#L183-L231)**
 
 
 An interactive Tableau dashboard used to report and explore sales trends can be found here [link].
