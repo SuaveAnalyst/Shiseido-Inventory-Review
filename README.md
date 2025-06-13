@@ -29,8 +29,7 @@ Targeted SQL queries regarding various business questions can be found here:
 
 
 An interactive Tableau dashboard used to report and explore sales trends can be found here:
-### 📊 Shiseido Inventory Dashboard  
-[🔎 **View Interactive Power BI Dashboard**](https://app.powerbi.com/view?r=eyJrIjoiYjVhYWQzMzQtZGVkMy00MDM0LWI5YmMtMDg5MDJjNGQxY2U3IiwidCI6ImMyMDdhMmFjLWZiYjMtNDdkZC04OTU1LWQyODRjMDJkYWQ1OSJ9)
+### 📊 Shiseido Inventory Dashboard  [🔎 **View Interactive Power BI Dashboard**](https://app.powerbi.com/view?r=eyJrIjoiYjVhYWQzMzQtZGVkMy00MDM0LWI5YmMtMDg5MDJjNGQxY2U3IiwidCI6ImMyMDdhMmFjLWZiYjMtNDdkZC04OTU1LWQyODRjMDJkYWQ1OSJ9)
 
 
 
