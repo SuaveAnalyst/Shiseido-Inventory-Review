@@ -1,10 +1,10 @@
 # Inventory Optimization Request
 
-Company: Shiseido
-To: Data Analytics Team
-From: Shiseido Operations & Supply Chain Leadership
-Subject: Strategic Demand Planning Analysis Initiative
-Date: April 3, 2025
+**Company:** Shiseido
+**To:** Data Analytics Team
+**From:** Shiseido Operations & Supply Chain Leadership
+**Subject:** Strategic Demand Planning Analysis Initiative
+**Date:** April 3, 2025
 
 As part of Shiseido’s continued commitment to operational excellence and responsive supply chain management, we are requesting an analytical deep dive into five critical areas of our demand planning process. The goal is to identify risks, improve forecast accuracy, reduce inefficiencies, and ultimately support better inventory and procurement decisions across our revive store locations.
 
