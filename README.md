@@ -64,8 +64,7 @@ The company’s main database is structured around eight relational tables, each
 
 This inventory performance review for Shiseido identifies critical inefficiencies spanning SKU management, forecasting precision, and cost containment. The analysis revealed five core patterns impacting operational performance: excess stock accumulation in underperforming SKUs driven by misaligned reorder logic, forecasting bias concentrated in specific product-region combinations, and disproportionate EOQs that hinder supplier efficiency. Additionally, a significant share of holding costs is tied to a small subset of SKUs, while several products remain in stock long after their reorder thresholds have passed. These findings inform actionable recommendations to right-size inventory, enhance forecast accuracy, and improve overall cost-to-serve across Shiseido’s supply chain.
 
-[![Shiseido](https://github.com/user-attachments/assets/9d7c8fd6-c253-439d-a255-fce60eb02d61)
-![Dynamic Executive Dashboard](https://github.com/user-attachments/assets/ee562cf1-414e-4d74-98b1-828be4df8d3a)]
+[![Shiseido](https://github.com/user-attachments/assets/9d7c8fd6-c253-439d-a255-fce60eb02d61)]
 
 
 
@@ -80,7 +79,7 @@ This inventory performance review for Shiseido identifies critical inefficiencie
   
 * **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
-[Visualization specific to category 1]
+[![SKU's at Risk](https://github.com/user-attachments/assets/128c7594-60b4-4ae7-994a-ff1254a8c9d6)]
 
 
 ### Category 2:
@@ -93,7 +92,7 @@ This inventory performance review for Shiseido identifies critical inefficiencie
   
 * **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
-[Visualization specific to category 2]
+[![Average Forecast Error Rate by Product Type and Region](https://github.com/user-attachments/assets/a360d509-832e-45d1-a7df-0317009099ca)]
 
 
 ### Category 3:
@@ -106,7 +105,7 @@ This inventory performance review for Shiseido identifies critical inefficiencie
   
 * **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
-[Visualization specific to category 3]
+[![Supplier EOQ vs Demand Analysis](https://github.com/user-attachments/assets/06bd78d3-93f1-46f3-847a-14f3b2eebf9a)]
 
 
 ### Category 4:
@@ -119,13 +118,26 @@ This inventory performance review for Shiseido identifies critical inefficiencie
   
 * **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
 
-[Visualization specific to category 4]
+[![Prioritizing SKU's Driving Holding Cost Disparity](https://github.com/user-attachments/assets/a497a9f7-3466-4814-85b7-48789e661b6b)]
 
 
+### Category 5:
+
+* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+  
+* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+
+[![Dead Stock Prioritization](https://github.com/user-attachments/assets/114aeb25-7656-484e-a435-3eb7bab47371)]
 
 # Recommendations:
 
-Based on the insights and findings above, we would recommend the [stakeholder team] to consider the following: 
+[![Inventory Optimization Recommendations](https://github.com/user-attachments/assets/7048ab86-bf64-4796-8a71-b82c4ab38af8)]
+
+Based on the insights and findings above, we would recommend the [Shiseido team] to consider the following: 
 
 * Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
   
