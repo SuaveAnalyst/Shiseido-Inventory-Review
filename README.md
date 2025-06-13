@@ -37,21 +37,21 @@ An interactive Power BI dashboard used to report and explore sales trends can be
 
 The company’s main database is structured around eight relational tables, each serving a specific function in tracking inventory operations, suppliers, shipping, and transactions. A total row count of 5129 records was observed. Below is a description of each table:
 
--**fact_inventorytransaction:** Central fact table capturing inventory movements, order volumes, costs, and shipment data.
+- **fact_inventorytransaction:** Central fact table capturing inventory movements, order volumes, costs, and shipment data.
 
--**dim_product:** Describes SKUs, product types, pricing, and holding rates.
+- **dim_product:** Describes SKUs, product types, pricing, and holding rates.
 
--**dim_supplier:** Contains supplier metadata including names, locations, lead times, and ordering costs.
+- **dim_supplier:** Contains supplier metadata including names, locations, lead times, and ordering costs.
 
--**dim_shipping:** Stores shipping carriers, transportation modes, and route information.
+- **dim_shipping:** Stores shipping carriers, transportation modes, and route information.
 
--**dim_date:** Calendar dimension table used for date-based analysis (day, month, quarter, year, etc.).
+- **dim_date:** Calendar dimension table used for date-based analysis (day, month, quarter, year, etc.).
 
--**dim_customer:** Provides customer segmentation data for fulfillment performance.
+- **dim_customer:** Provides customer segmentation data for fulfillment performance.
 
--**dim_inspection:** Tracks inspection outcomes relevant to product quality and compliance.
+- **dim_inspection:** Tracks inspection outcomes relevant to product quality and compliance.
 
--**dim_inspection:** Contains quality assurance data, specifically inspection results tied to products and suppliers, enabling analysis of defect trends, compliance rates, and supplier reliability.
+- **dim_inspection:** Contains quality assurance data, specifically inspection results tied to products and suppliers, enabling analysis of defect trends, compliance rates, and supplier reliability.
 
 [Entity Relationship Diagram here]
 
