@@ -70,65 +70,55 @@ This inventory performance review for Shiseido identifies critical inefficiencie
 # Insights Deep Dive
 ### Category 1:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 1.** SKUs like SKU8 and SKU49 have not sold in 7+ months yet maintain excess stock of 600+ units, highlighting dead stock risk.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 2.** Items like SKU3 and SKU97 show recent sales but remain overstocked, indicating reorder misalignment.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 3.** ROP-based alerting can help categorize SKUs into understock / on-target / overstock.
   
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-
 ![SKU's at Risk](https://github.com/user-attachments/assets/128c7594-60b4-4ae7-994a-ff1254a8c9d6)
 
 
 ### Category 2:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 1.** Cosmetics in Bangalore show the highest forecast error rate (10.24%), requiring model recalibration.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 2.** Skincare has the lowest error variability across regions, indicating stable and reliable demand patterns.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 3.** Chennai has moderate errors across all product types, suggesting possible regional forecast noise.
 
 [![Average Forecast Error Rate by Product Type and Region](https://github.com/user-attachments/assets/a360d509-832e-45d1-a7df-0317009099ca)]
 
 
 ### Category 3:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 1.** SKU28 (S1) has an EOQ of 409 units with only ~1000 in annual demand, suggesting batch ordering or inefficiency.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 2.** SKU44 (S2) and SKU69 (S4) reflect well-balanced EOQ-to-demand ratios, supporting lean inventory strategies.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 3.**  Suppliers contributing to over-ordering patterns can be flagged using EOQ vs Demand plots.
 
 ![Supplier EOQ vs Demand Analysis](https://github.com/user-attachments/assets/06bd78d3-93f1-46f3-847a-14f3b2eebf9a)
 
 
 ### Category 4:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 1.** The top 10 SKUs account for 80%+ of cumulative holding cost, with SKU14, SKU41, and SKU52 leading.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 2.** These SKUs show high holding cost per unit, often driven by excess stock and slow turnover.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 3.** The Pareto threshold at 80% clearly segments cost-intensive inventory for targeted actions.
 
 ![Prioritizing SKU's Driving Holding Cost Disparity](https://github.com/user-attachments/assets/a497a9f7-3466-4814-85b7-48789e661b6b)
 
 
 ### Category 5:
 
-* **Main insight 1.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 1.** Top 10 revenue-generating SKUs vary quarterly, indicating shifting demand and possible promotional effects.
   
-* **Main insight 2.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 2.** Many high-revenue SKUs overlap with forecast error or excess stock, requiring dual optimization.
   
-* **Main insight 3.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
-  
-* **Main insight 4.** More detail about the supporting analysis about this insight, including time frames, quantitative values, and observations about trends.
+* **Main insight 3.** Cross-matching dead stock with revenue drivers highlights missed revenue recovery opportunities.
 
 ![Dead Stock Prioritization](https://github.com/user-attachments/assets/114aeb25-7656-484e-a435-3eb7bab47371)
 
@@ -136,26 +126,13 @@ This inventory performance review for Shiseido identifies critical inefficiencie
 
 ![Inventory Optimization Recommendations](https://github.com/user-attachments/assets/7048ab86-bf64-4796-8a71-b82c4ab38af8)
 
-Based on the insights and findings above, we would recommend the [Shiseido team] to consider the following: 
-
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-* Specific observation that is related to a recommended action. **Recommendation or general guidance based on this observation.**
-  
-
 
 # Assumptions and Caveats:
 
 Throughout the analysis, multiple assumptions were made to manage challenges with the data. These assumptions and caveats are noted below:
 
-* Assumption 1 (ex: missing country records were for customers based in the US, and were re-coded to be US citizens)
+* Assumption 1 (Missing demand or sales records for certain SKUs were assumed to represent zero demand, rather than data entry errors.)
   
-* Assumption 1 (ex: data for December 2021 was missing - this was imputed using a combination of historical trends and December 2020 data)
+* Assumption 2 (Products with no recorded transactions over time but positive stock balances were considered dead stock.)
   
-* Assumption 1 (ex: because 3% of the refund date column contained non-sensical dates, these were excluded from the analysis)
+* Assumption 1 (Forecast error was measured using available forecast vs. actual data without differentiating between over- and under-forecasting bias unless explicitly visualized.)
