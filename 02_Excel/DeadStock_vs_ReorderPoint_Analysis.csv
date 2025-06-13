@@ -1,0 +1,8 @@
+SKU,ProductType,LastSoldMonth,StockOnHand,RecentOrders,OverstockQty,ReorderPoint,InventoryAlert
+SKU8,cosmetics,2024-08,1508,866,642,96,Overstock
+SKU87,haircare,2024-09,506,307,199,24,Overstock
+SKU64,skincare,2024-10,474,361,113,108,Overstock
+SKU49,cosmetics,2023-08,106,69,37,18,Overstock
+SKU97,haircare,2024-02,397,363,34,77,Overstock
+SKU61,haircare,2024-09,936,967,-31,247,Overstock
+SKU3,skincare,2024-11,97,132,-35,19,Overstock

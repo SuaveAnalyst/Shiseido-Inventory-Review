@@ -1,0 +1,4 @@
+ProductType,NumSKUs,MinHoldingRate,MaxHoldingRate,AvgHoldingRate,MinPrice,MaxPrice,AvgPrice,TotalHoldingCost,AvgHoldingCostPerUnit
+cosmetics,26,0.152,0.300,0.237,2.40,97.76,57.36,389.80,14.99
+skincare,40,0.155,0.302,0.222,4.08,99.17,47.26,486.12,12.15
+haircare,34,0.151,0.300,0.220,1.70,97.45,46.01,386.47,11.37
